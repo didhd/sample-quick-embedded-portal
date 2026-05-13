@@ -2,6 +2,8 @@
 
 A reference implementation that embeds an **AWS Quick Suite** (formerly Amazon QuickSight) operational dashboard **and** an interactive **Chat Agent** inside a custom React web application, behind Cognito-mediated OIDC federation.
 
+![Portal Preview](assets/preview.png)
+
 It was built as a working demo for a debt-relief call-center customer (rebranded here as "AnyCompany Financial") evaluating whether to embed Quick Suite-based reporting and natural-language analytics in their next-generation CRM.
 
 | What | Where |
