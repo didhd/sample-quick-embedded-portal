@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta name="color-scheme" content="light dark" />
+        <title>AnyCompany Financial — Operations Portal</title>
+        <link rel="preconnect" href="https://unpkg.com" crossorigin />
+        <link rel="preconnect" href="https://cognito-idp.us-west-2.amazonaws.com" />
+        <link rel="dns-prefetch" href="https://quicksight.aws.amazon.com" />
+        <link rel="dns-prefetch" href="https://us-west-2.quicksight.aws.amazon.com" />
+        <link
+            rel="preload"
+            as="script"
+            href="https://unpkg.com/amazon-quicksight-embedding-sdk@2.11.3/dist/quicksight-embedding-js-sdk.min.js"
+            crossorigin="anonymous"
+        />
+        <script
+            src="https://unpkg.com/amazon-quicksight-embedding-sdk@2.11.3/dist/quicksight-embedding-js-sdk.min.js"
+            crossorigin="anonymous"
+            defer
+        ></script>
+        <script src="/config.js"></script>
+    </head>
+    <body class="antialiased bg-ink-50 text-ink-900">
+        <div id="root"></div>
+        <script type="module" src="/src/main.jsx"></script>
+    </body>
+</html>

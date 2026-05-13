@@ -1,0 +1,13 @@
+{
+    "fileLocations": [
+        {
+            "URIs": ["s3://YOUR_DATA_BUCKET/clearone/call_activity.csv"]
+        }
+    ],
+    "globalUploadSettings": {
+        "format": "CSV",
+        "delimiter": ",",
+        "textqualifier": "\"",
+        "containsHeader": "true"
+    }
+}

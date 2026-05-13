@@ -1,0 +1,48 @@
+# CDK
+webapp/cdk.out/
+webapp/node_modules/
+webapp/cdk-outputs.json
+webapp/*.js
+webapp/*.d.ts
+webapp/bin/*.js
+webapp/bin/*.d.ts
+webapp/lib/*.js
+webapp/lib/*.d.ts
+
+# React app
+my-app/node_modules/
+my-app/dist/
+
+# Python
+venv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+
+# Lambda bundling output (built by CDK)
+lambda/build/
+
+# Generated synthetic data
+data/output/
+
+# Generated config (deploy-time injected)
+frontend/config.js
+my-app/dist/config.js
+
+# Reports
+*.txt
+CDK-NAG-*.md
+
+# Local secrets / environment overrides
+.env
+.env.local
+.env.*.local
+
+# Tooling state (Claude Code, oh-my-claudecode)
+.claude/
+.omc/
+
+# OS
+.DS_Store

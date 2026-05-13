@@ -1,0 +1,27 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+    html,
+    body,
+    #root {
+        height: 100%;
+    }
+    body {
+        font-feature-settings: "cv11", "ss01", "ss03";
+    }
+    * {
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale;
+    }
+}
+
+@layer components {
+    .embed-root iframe {
+        width: 100% !important;
+        height: 100% !important;
+        border: 0 !important;
+        background: #fff;
+    }
+}
